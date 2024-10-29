@@ -29,6 +29,9 @@ Let's learn some intermediate concepts to build a strong foundation.
 Let's learn some advanced topics and packages used by data engineer on a daily basis
 * Py Package - Numpy
 * Py Package - Pandas (Basics and Understanding Transformation with Project)
+* Working with DateTime Formats
+* Working with different file formats (JSON, CSV, Excel, AVRO)
+
 
 ## Module 5: [Spotfiy Data Pipeline End-To-End Python Data Engineering Project](https://github.com/DineshchandraRS/python-for-dataenginnering/tree/main/End-To-End%20Data%20Pipeline%20Project)
 Implement Complete Data Pipeline Data Engineering Project using Spotify 
