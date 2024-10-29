@@ -21,3 +21,13 @@ This API contains information aboy music artist, albums and songs - [Spotify API
 5. **Data Catalog:** AWS Glue Data catlog is fully managed metadata repository that makes it easy to discover and manage data in AWS, You can use the Glue Data Catalog with other AWS services, such as Athena
 
 6. **Amazon Athena:** Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. You can use Athena to analyze data in your Glue Data Catlog or in other S3 buckets.
+
+### Install Packages
+```
+pip install pandas
+pip install numpy
+pip install spotify
+```
+
+### Project Execution Flow
+Extract data from API -> Lambda Trigger (every 1 hour) -> Run Extract code -> Store raw Data -> Trigger Transform Function -> Transform Data and Load It -> Query using Athena
